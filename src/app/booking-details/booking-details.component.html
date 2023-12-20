@@ -1,0 +1,35 @@
+<img src="assets/addpass.gif" alt="view" width="100%" height="100%">
+<div class="centered">
+<h2>Booking Details</h2>
+<br>
+
+     <div class="form-group">
+      <label for="name">Passenger Name</label>
+      <input type="text" class="form-control" id="passengerName" required [(ngModel)]="booking.passengerName" name="passengerName">
+    </div>
+    <div class="form-group">
+      <label for="name">Passengers Age</label>
+      <input type="text" class="form-control" id="passengerAge" required [(ngModel)]="booking.passengerAge" name="passengerAge">
+    </div>
+    <div class="form-group">
+      <label for="name">Passengers Gender</label>
+      <input type="text" class="form-control" id="passengerGender" required [(ngModel)]="booking.passengerGender" name="passengerGender">
+    </div>
+    <div class="form-group">
+      <label for="name">Passengers Email</label>
+      <input type="text" class="form-control" id="passengerEmail" required [(ngModel)]="booking.passengerEmail" name="passengerEmail">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Passenger Phone</label>
+      <input type="text"  class="form-control" id="passengerPhone" required [(ngModel)]="booking.passengerPhone" name="passengerPhone">
+    </div>
+
+    <div class="form-group">
+      <label for="name">No of Passengers</label>
+      <input type="text" class="form-control" id="noOfPassengers" required [(ngModel)]="booking.noOfPassengers" name="noOfPassengers">
+    </div> 
+    <br>
+    <div>
+      <button type="button" class="btn btn-success col-md-3 offset-md-3" (click)="onSubmit()">Submit</button>
+    </div>

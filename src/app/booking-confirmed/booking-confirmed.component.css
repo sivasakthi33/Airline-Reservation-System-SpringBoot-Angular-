@@ -1,0 +1,12 @@
+.centered {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  width: 40%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: large;
+}

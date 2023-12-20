@@ -1,0 +1,30 @@
+*{
+    color: black;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  img{
+    width:180vh;
+    height:90vh;
+  }
+  
+  .centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: black;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+  .row{
+    width: 500%;
+  }
+  button{
+    background-color: orange;
+  }
+  
